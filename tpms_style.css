@@ -6,13 +6,25 @@ body {
   }
     a{text-decoration: none;}
 .header {
+	display: block;
 	background: rgba(0, 0, 0, 0.7); 
 	margin-top: 10px;
 	border-radius: 13px;
 	padding-bottom: 10px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+#LOGO{
+	width: 30%;
 }
 .header p{
-	font:  4vw/1px comic sans ms;
+	font:  2vw/1px 'Russo One', sans-serif;
 	margin-right: 1%;
 	margin-top: 4%;
 	color: #ffffff;
@@ -20,35 +32,29 @@ body {
 }
 
 .header_menu{
+	display: block;
 	height: 50px;
 	background: rgba(220, 220, 220, 0.7); 
 	margin: 1%;
 	border-radius: 13px;
-	
-}
+	z-index: 2;}
 
 .header_menu a{
 	font:  1.5vw/50px 'Russo One', sans-serif;
 	margin-left: 20px;
-	margin-right: 40px;
-	color: #ffffff;
-
-}
+	margin-right: 25px;
+	color: #ffffff;}
 section {
     float: left;
-    width: 50%;
-}
+    width: 50%;}
 aside {
     float: right;
-    width: 50%;
-}
+    width: 50%;}
 .header_menu span{
 	font:  1vw/50px 'Russo One', sans-serif;
 	float: right;
 	margin-right: 1vw;
-	color: #ffffff;
-
-}
+	color: #ffffff;}
 
 .header_menu a:hover{color: red; transition: 1s;}
 
@@ -60,33 +66,28 @@ input[type="checkbox"] {
 label{    
     display: none;
 }
-#menu {    
-    display: none;
-}
+#menu {display: none;}
+
 label:hover{
    color: red; transition: 1s;
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
     
    aside, section{
    	display: none
    }
     label{
-         display: block;
+         display: flex;
          margin: 1%;
          font:  25px/50px 'Russo One', sans-serif;
          color: #ffffff;
     }
-    input[type="checkbox"]:checked ~#menu{
+    #btn-menu:checked  ~ #menu{
     	display: block;
-    	position:relative;
-		z-index: 2;
+    	z-index: 2;
     }
-
-
-    
 }
 
 
@@ -96,26 +97,28 @@ label:hover{
 	margin-top: 40px;
 	padding-bottom: 10px;
 	padding-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 2%;
 	text-align: center;
-	height: 8vw;
-}
+	height: 8vw;}
 
 .footer a {
 	font:  1.5vw/4vw 'Russo One', sans-serif;
 	margin-left: 1vw;
 	margin-right: 1vw;
-	color: #ffffff;
-}
+	color: #ffffff;}
+
 .footer p {
 	font:  1.5vw/2vw 'Russo One', sans-serif;
 	margin-left: 1vw;
 	margin-right: 1vw;
-	color: #ffffff;
-}
+	color: #ffffff;}
 .footer a:hover{color: red; transition: 1s;}
 
 
+#footerP{
+	width: 50%; 
+	float: right;
+}
 
 .Line {
 	height: 4vw;
@@ -133,9 +136,395 @@ label:hover{
   margin-right: 1%;
   position:relative;
 		z-index: 1;
-}
+	}
 .Line p {
 	font:  3.5vw 'Russo One', sans-serif;
+	text-align: center;
+	color: black;}
+
+.content {
+	background: #f5f5f5;
+	padding: 2%;
+	 margin-left: 2%;
+  margin-right: 2%;
+  display: table;
+	width: 92%; }
+
+.content p{
+	font:  2vw/3vw 'Russo One', sans-serif;
+	color: black;}
+
+
+
+
+/****TABLE 1****/
+.table1 th {
+font:  2vw/2vw 'Russo One', sans-serif;
+background: #FFD700; 
+padding: 8px;
+}
+.table1 td {
+font:  1.5vw/1.5vw 'Russo One', sans-serif;
+text-align: center;
+background: #FAFAD2;
+border-bottom: 1px solid #fff;
+border-top: 1px solid transparent;
+padding: 8px;
+}
+.table1 tr:hover td {
+background: #FF7F50; 
+}
+.table1{
+	display: table;
+}
+.table2{
+	display: none;
+}
+
+.ant-carousel-hider p{
+	font:  1vw/1vw 'Russo One', sans-serif;
+}
+
+#pictureE{
+	height: 270px;
+	width: 270px;
+}
+#picture{
+	height: auto;
+	width: 99%;
+}
+
+/**Увеличение картинки**/
+img[tabindex="0"] {
+  cursor: zoom-in;
+}
+img[tabindex="0"]:focus {
+  position: fixed;
+  z-index: 35;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: auto;
+  margin: auto;
+  box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210,210,210,.4);
+}
+img[tabindex="0"]:focus,  /* убрать строку, если не нужно, чтобы при клике на увеличенное фото, оно возвращалось в исходное состояние */
+img[tabindex="0"]:focus ~ * {
+  pointer-events: none;
+  cursor: zoom-out;
+}
+
+.block{
+	background: #E6E6FA; 
+	border-radius: 7px;
+	border: outset;
+	border-color: black;
+	display: table;
+	padding: 10px;
+	float: left;
+	margin: 1.5%;
+}
+
+.block p{
+	text-align: left;
+	font:  1vw/1vw 'Russo One', sans-serif;
+}
+
+.block1{
+	background: #E6E6FA; 
+	border-radius: 7px;
+	border: outset;
+	border-color: black;
+	display: table;
+	padding: 10px;
+	float: left;
+	margin: 1.5%;
+}
+
+.block1 p{
+	text-align: center;
+	font:  1vw/1vw 'Russo One', sans-serif;
+}
+
+#pictureInBlock{
+	width: 25vw;
+	height: 25vw;
+	display: table;
+	border-radius: 20px;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.pictureInBlock1{
+width: 25vw;
+	height: 25vw;
+	display: table;
+	border-radius: 20px;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+#pic1{
+	width: 45%;
+}
+#pic3{
+	width: 40%;
+}
+
+
+#ContentText1{
+	padding-right: 2%;
+}
+
+#ContentTextb1{
+font-size: 1.5vw;
+}
+
+#ContentText2{
+	width: 50%;
+}
+#ContentText3{
+	width: 58%;
+}
+
+ @media screen and (max-width: 1620px){ 
+
+aside{
+   	display: none
+   }
+   section {
+    width: 100%;}
+aside {
+    width: 0%;}
+
+ }
+/*Экран до 1620*/
+
+ @media screen and (max-width: 1220px){ 	
+.header {
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.7); 
+	margin-top: 10px;
+	border-radius: 13px;
+	padding-bottom: 10px;
+ width: 100%;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+#LOGO{
+	width: 30%;
+}
+
+.header p{
+	font:  2vw/1px 'Russo One', sans-serif;
+	margin-right: 1%;
+	margin-top: 4%;
+	color: #ffffff;
+	float: right;
+}
+.header_menu{
+	display: block;
+	height: 100px;
+	background: rgba(220, 220, 220, 0.7); 
+	margin: 1%;
+	border-radius: 13px;
+	z-index: 2;
+}
+.header_menu a{
+	font:  3.7vw/110px 'Russo One', sans-serif;
+	margin-left: 20px;
+	margin-right: 25px;
+	color: #ffffff;
+
+}
+.header_menu span{
+	font:  1vw/50px 'Russo One', sans-serif;
+	float: right;
+	margin-right: 1vw;
+	color: #ffffff;
+
+}
+.header_menu a:hover{color: red; transition: 1s;}
+input[type="checkbox"] {
+    display: none;
+}
+label:hover{
+   color: red; transition: 1s;
+}
+
+ 
+   aside, section{
+   	display: none
+   }
+    label{
+         display: flex;
+         margin: 1%;
+         font:  50px/100px 'Russo One', sans-serif;
+         color: #ffffff;
+    }
+    #btn-menu:checked  ~ #menu{
+    	display: block;
+    	z-index: 2;
+    }
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+/* Экран до 1040 */
+
+ @media screen and (max-width: 1040px){ 	
+.header {
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.7); 
+	margin-top: 10px;
+	border-radius: 13px;
+	padding-bottom: 10px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+#LOGO{
+	width: 100%;
+}
+#GreyLine{
+	padding-top: 10%;
+}
+.header p{
+	font:  4vw/1px 'Russo One', sans-serif;
+	margin-right: 1%;
+	margin-top: 4%;
+	color: #ffffff;
+	float: right;
+	display: block;
+}
+.header_menu{
+	display: block;
+	height: 100px;
+	background: rgba(220, 220, 220, 0.7); 
+	margin: 1%;
+	border-radius: 13px;
+	z-index: 2;
+}
+.header_menu a{
+	font:  3.7vw/110px 'Russo One', sans-serif;
+	margin-left: 20px;
+	margin-right: 25px;
+	color: #ffffff;
+
+}
+.header_menu span{
+	font:  1vw/50px 'Russo One', sans-serif;
+	float: right;
+	margin-right: 1vw;
+	color: #ffffff;
+
+}
+.header_menu a:hover{color: red; transition: 1s;}
+input[type="checkbox"] {
+    display: none;
+}
+label:hover{
+   color: red; transition: 1s;
+}
+
+ 
+   aside, section{
+   	display: none
+   }
+    label{
+         display: flex;
+         margin: 1%;
+         font:  50px/100px 'Russo One', sans-serif;
+         color: #ffffff;
+    }
+    #btn-menu:checked  ~ #menu{
+    	display: block;
+    	z-index: 2;
+    }
+
+
+.footer {
+	background: rgba(0, 0, 0, 0.9); 
+	margin-top: 40px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	margin-bottom: 15%;
+	text-align: center;
+	height: 25vw;
+}
+
+.footer a {
+	font:  3.5vw/4vw 'Russo One', sans-serif;
+	color: #ffffff;
+}
+.footer p {
+	font:  3vw/4vw 'Russo One', sans-serif;
+	color: #ffffff;
+}
+.footer a:hover{color: red; transition: 1s;}
+
+
+#footerP{
+	width: 100%; 
+
+}
+
+.Line {
+	margin-top: 5%;
+	display: table;
+	width: 97%;
+	background: linear-gradient(to top, #ffc20d, #ffc23d);
+  box-shadow:
+	1px 0px rgb(255,214,89), 1px 1px rgb(236,177,0),
+  2px 1px rgb(254,213,88), 2px 2px rgb(235,176,0),
+  3px 2px rgb(253,212,87), 3px 3px rgb(234,175,0),
+  4px 3px rgb(252,211,86), 4px 4px rgb(233,174,0),
+  5px 4px rgb(251,210,85), 5px 5px rgb(232,173,0),
+  6px 5px rgb(250,209,84), 6px 6px rgb(231,172,0),
+  7px 6px rgb(249,208,83), 7px 7px rgb(230,171,0),
+  8px 7px rgb(248,207,82), 8px 8px rgb(229,170,0);
+  margin-left: 1%;
+  margin-right: 1%;
+  position:relative;
+		z-index: 1;
+}
+.Line p {
+	font:  6.5vw/60px 'Russo One', sans-serif;
 	text-align: center;
 	color: black;
 }
@@ -147,41 +536,74 @@ label:hover{
   margin-right: 2%;
   display: table;
 	width: 92%; 
+	align-content: center;
 }
 
 
 .content p{
-	font:  2vw/3vw 'Russo One', sans-serif;
+	font:  4vw/4vw 'Russo One', sans-serif;
 	color: black;
 }
 
 
-
-
-/****TABLE 1****/
-.table1 th {
-font:  3vw/3vw 'Russo One', sans-serif;
+.table1{
+	display: none;
+}
+.table2{
+	display: table;
+}
+/****TABLE 2****/
+.table2 th {
+font:  4vw/3vw 'Russo One', sans-serif;
 background: #FFD700; 
 padding: 8px;
 }
-.table1 td {
-font:  2vw/2vw 'Russo One', sans-serif;
+.table2 td {
+font:  3vw/3vw 'Russo One', sans-serif;
 text-align: center;
 background: #FAFAD2;
 border-bottom: 1px solid #fff;
 border-top: 1px solid transparent;
 padding: 8px;
 }
-.table1 tr:hover td {
+.table2 tr:hover td {
 background: #FF7F50; 
 }
 
 
 .ant-carousel-hider p{
-	font:  1vw/1vw 'Russo One', sans-serif;
+	font:  4vw/1vw 'Russo One', sans-serif;
+}
+
+#picture{
+	height: 850px;
+	width: 850px;
 }
 
 
+#pictureInBlock{
+	width: 100%;
+	height: 100%;
+	display: table;
+	border-radius: 20px;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.block p{
+	text-align: left;
+	font:  4vw/4vw 'Russo One', sans-serif;
+}
+.block1 p{
+	text-align: center;
+	font:  4vw/4vw 'Russo One', sans-serif;
+}
 
 /**Увеличение картинки**/
 img[tabindex="0"] {
@@ -205,3 +627,41 @@ img[tabindex="0"]:focus,  /* убрать строку, если не нужно
 img[tabindex="0"]:focus ~ * {
   pointer-events: none;
   cursor: zoom-out;
+}
+
+
+#pic1{
+	width: 100%;
+}
+
+#pic3{
+	width: 100%;
+}
+
+#ContentText1{
+	width: 100%;
+	font: 5vw/5vw 'Russo One', sans-serif;
+	padding-right: 0;
+}
+
+#ContentTextb1{
+font-size: 4vw;
+}
+
+#ContentText2{
+	width: 100%;
+	font: 5vw/5vw 'Russo One', sans-serif;
+}
+#ContentText3{
+	width: 100%;
+	font: 5vw/5vw 'Russo One', sans-serif;
+}
+
+
+
+
+
+  }
+
+
+

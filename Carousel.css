@@ -1,21 +1,54 @@
 /* User styles */
-@media screen and (min-width: 911px) {
+   @media screen and (max-width: 1920px){
   .ant-carousel {
-    max-width: 1750px;
+    max-width: 900px;
+  }
+  .ant-carousel-element {
+  width: 280px;
+  text-align: center;
+}
+}   
+@media screen and (max-width: 1440px){
+  .ant-carousel {
+     max-width: 900px;
+  }
+}  
+ @media screen and (max-width: 1280px){
+  .ant-carousel {
+     max-width: 900px;
+  }
+}   
+@media screen and (max-width: 1040px){
+  .ant-carousel {
+     max-width: 900px;
+  }
+  .ant-carousel-element {
+  width: 900px;
+  text-align: center;
+}
+}   
+@media screen and (max-width: 920px){
+  .ant-carousel {
+     max-width: 900px;
+  }
+}   
+@media screen and (max-width: 780px){
+  .ant-carousel {
+     max-width: 900px;
+  }
+}   
+@media screen and (max-width: 560px){
+  .ant-carousel {
+     max-width: 900px;
+  }
+}   
+@media screen and (max-width: 320px){
+  .ant-carousel {
+     max-width: 900px;
   }
 }
 
-@media screen and (min-width: 641px) and (max-width: 910px) {
-  .ant-carousel {
-    max-width: 540px;
-  }
-}
 
-@media screen and (max-width: 640px) {
-  .ant-carousel {
-    max-width: 270px;
-  }
-}
 
 .ant-carousel {
   margin: 50px auto auto;
@@ -25,10 +58,7 @@
   border-radius: 13px;
 }
 
-.ant-carousel-element {
-  width: 280px;
-  text-align: center;
-}
+
 
 /* General styles */
 .ant-carousel {
