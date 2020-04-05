@@ -572,12 +572,12 @@ background: #FF7F50;
 
 
 .ant-carousel-hider p{
-	font:  4vw/1vw 'Russo One', sans-serif;
+	font:  3vw/3vw 'Russo One', sans-serif;
 }
 
 #picture{
-	height: 850px;
-	width: 850px;
+	height: 300px;
+	width: 300px;
 }
 
 
