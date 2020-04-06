@@ -141,7 +141,10 @@ label:hover{
 	font:  3.5vw 'Russo One', sans-serif;
 	text-align: center;
 	color: black;}
-
+.Line h1 {
+	font:  3.5vw 'Russo One', sans-serif;
+	text-align: center;
+	color: black;}
 .content {
 	background: #f5f5f5;
 	padding: 2%;
@@ -154,8 +157,13 @@ label:hover{
 	font:  2vw/3vw 'Russo One', sans-serif;
 	color: black;}
 
+.content h1{
+	font:  2vw/3vw 'Russo One', sans-serif;
+	color: black;}
 
-
+.content h2{
+	font:  2vw/3vw 'Russo One', sans-serif;
+	color: black;}
 
 /****TABLE 1****/
 .table1 th {
@@ -528,7 +536,11 @@ label:hover{
 	text-align: center;
 	color: black;
 }
-
+.Line h1 {
+	font:  6.5vw/60px 'Russo One', sans-serif;
+	text-align: center;
+	color: black;
+}
 .content {
 	background: #f5f5f5;
 	padding: 2%;
@@ -544,8 +556,14 @@ label:hover{
 	font:  4vw/4vw 'Russo One', sans-serif;
 	color: black;
 }
-
-
+.content h1{
+	font:  4vw/4vw 'Russo One', sans-serif;
+	color: black;
+}
+.content h2{
+	font:  4vw/4vw 'Russo One', sans-serif;
+	color: black;
+}
 .table1{
 	display: none;
 }
