@@ -55,7 +55,11 @@ aside {
 	float: right;
 	margin-right: 1vw;
 	color: #ffffff;}
-
+.header_menu h1{
+	font:  1vw 'Russo One', sans-serif;
+	float: right;
+	margin-right: 1vw;
+	color: #ffffff;}
 .header_menu a:hover{color: red; transition: 1s;}
 
 
@@ -142,6 +146,10 @@ label:hover{
 	text-align: center;
 	color: black;}
 .Line h1 {
+	font:  3.5vw 'Russo One', sans-serif;
+	text-align: center;
+	color: black;}
+	.Line h2 {
 	font:  3.5vw 'Russo One', sans-serif;
 	text-align: center;
 	color: black;}
@@ -373,6 +381,13 @@ aside {
 	color: #ffffff;
 
 }
+.header_menu h1{
+	font:  1vw 'Russo One', sans-serif;
+	float: right;
+	margin-right: 1vw;
+	color: #ffffff;
+
+}
 .header_menu a:hover{color: red; transition: 1s;}
 input[type="checkbox"] {
     display: none;
@@ -457,6 +472,13 @@ label:hover{
 }
 .header_menu span{
 	font:  1vw/50px 'Russo One', sans-serif;
+	float: right;
+	margin-right: 1vw;
+	color: #ffffff;
+
+}
+.header_menu h1{
+	font:  1vw 'Russo One', sans-serif;
 	float: right;
 	margin-right: 1vw;
 	color: #ffffff;
