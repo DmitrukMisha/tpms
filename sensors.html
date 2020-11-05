@@ -10,13 +10,13 @@
   <meta property="og:title" content="ПРОДАЖА И ПРОГРАММИРОВАНИЕ ДАТЧИКОВ ДАВЛЕНИЯ В ШИНАХ (TPMS)">
   <meta property="og:site_name" content="TPMS-MINSK ПРОДАЖА И ПРОГРАММИРОВАНИЕ ДАТЧИКОВ ДАВЛЕНИЯ В ШИНАХ (TPMS)">
   <meta property="og:description" content="Мы занимаемся: Розничная и оптовая продажа датчиков давления в шинах (TPMS) и вентилей к ним. Программирование датчиков TPMS. Клонирование датчиков давления в шинах. Диагностика датчиков давления в шинах.">
-  <meta property="og:url" content="http://tpms-minsk.by/Products.html">
+  <meta property="og:url" content="http://tpms-minsk.by/sensors.html">
   <meta property="og:image" content="http://tpms-minsk.by/images/logo.png">
   <meta name="Description" content="Мы занимаемся: Розничная и оптовая продажа датчиков давления в шинах (TPMS) и вентилей к ним. Программирование датчиков TPMS. Клонирование датчиков давления в шинах. Диагностика датчиков давления в шинах.">
     <meta name="Keywords" content="датчикb, датчикb давления, датчики давления в шинах, TPMS, Минск, Беларусь, диски, диагностика, программирование датчика давления в шинах, клонирование датчика давления в шинах, Alligator, TPMS-MINSK, TECH, U-PRO, T-PRO, SENS.IT, ATEQ VT56, второй комплект дисков">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="//code.jivosite.com/widget.js" data-jv-id="J6Gz8QbKkh" async></script>
-<!-- Yandex.Metrika counter -->
+<!-- Yandex.Metrika counter  -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -31,9 +31,10 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/61330222" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script src="sensors.js"></script>
 </head>
 
-<body>
+<body onload="showw(sensors);">
 <div>
 <div class="header" >
 <a href ="index.html"><img id="LOGO" alt="Логотип TPMS-MINSK" src="images/logo11.png" title="Главная страница"></a>
@@ -67,44 +68,34 @@
 </div>
 
 
-<!-- Блок каталога -->
-<div class="Line"> <h2>Каталог</h2> </div>
+
+
+
+<!-- Блок с товарами -->
+<div class="Line"> <h2>Датчики</h2> </div>
 <div class="content">
 
-<div class="block2">
-<a href="services.html">
-  <img id="pictureInBlock" alt="Alligator" src="images/products/TPMS.jpg">
-  <p style="text-align: center;">Услуги</p>
-</a>
+<h4><a href="Products.html" id="Back">⬅Каталог</a>
+Цена:&nbsp;
+<div style="display: inline-block;"><input type="checkbox" id="sort" onchange="sort(sensors)" style="display: inline;"> По возрастанию &nbsp;</div>
+<div style="display: inline-block;"><input type="checkbox" id="revers" onchange="revers(sensors)" style="display: inline;"> По убыванию &nbsp;</div>
+<div style="display: inline-block;"><input type="checkbox" id="activate" onchange="main(sensors)" style="display: inline;"> С активацией &nbsp;</div>
+<div style="display: inline-block;"><input type="checkbox" id="x4" onchange="main(sensors)" style="display: inline;"> х4 &nbsp;</div>
+<div style="display: inline-block;"><input type="checkbox" id="x1" onchange="main(sensors)" style="display: inline;"> х1 &nbsp;</div>
+</h4>
+<h4>
+<div style="display: inline-block;"><input type="checkbox" id="alligator" onchange="main(sensors)" style="display: inline;"> Alligator &nbsp;</div>
+<div style="display: inline-block;"><input type="checkbox" id="tech" onchange="main(sensors)" style="display: inline;"> TECH &nbsp;</div>
+<div style="display: inline-block;"><input type="checkbox" id="autel" onchange="main(sensors)" style="display: inline;"> AUTEL &nbsp;</div>
+<div style="display: inline-block;"><input type="checkbox" id="huf" onchange="main(sensors)" style="display: inline;"> HUF (BH Sens) &nbsp;</div>
+<div style="display: inline-block;"><input type="checkbox" id="italsensor" onchange="main(sensors)" style="display: inline;"> Italsensor &nbsp;</div>
+</h4>
+
+
+<div id="cont">
+
 </div>
 
-<div class="block2">
-<a href="sensors.html">
-  <img id="pictureInBlock" alt="Датчики TPMS" src="images/products/72-21-945.jpg">
-  <p style="text-align: center;">Датчики TPMS</p>
-</a>
-</div>
-
-<div class="block2">
-<a href="valves.html">
-  <img id="pictureInBlock" alt="Вентиля к датчикам TPMS" src="images/Carousel/ALLIGATOR.jpg">
-  <p style="text-align: center;">Вентиля к датчикам TPMS</p>
-</a>
-</div>
-
-<div class="block2">
-<a href="devices.html">
-  <img id="pictureInBlock" alt="Программаторы для TPMS" src="images/products/TPMS_Прибор_TECH.jpg">
-  <p style="text-align: center;">Программаторы для TPMS</p>
-</a>
-</div>
-
-<div class="block2">
-<a href="tools.html">
-  <img id="pictureInBlock" alt="Инструменты для TPMS" src="images/products/НаборДляРемонтаTPMS-2.jpg">
-  <p style="text-align: center;">Инструменты для TPMS</p>
-</a>
-</div>
 
 </div>
 

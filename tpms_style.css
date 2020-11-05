@@ -23,6 +23,22 @@ body {
 #LOGO{
 	width: 30%;
 }
+#Back{
+	text-align: left;
+	color: black;
+	border:solid;
+	border-radius: 10px;
+	padding: 0.5%;
+}
+#Back:hover{
+   color: red; transition: 1s;
+}
+
+#alligator, #tech, #huf, #autel, #italsensor, #x4, #x1, #activate, #revers, #sort{
+  transform:scale(2);
+  opacity:0.9;
+  cursor:pointer;
+  }
 .header p{
 	font:  2vw/1px 'Russo One', sans-serif;
 	margin-right: 1%;
@@ -172,6 +188,9 @@ label:hover{
 .content h2{
 	font:  2vw/3vw 'Russo One', sans-serif;
 	color: black;}
+.content h4{
+	font:  2vw/3vw 'Russo One', sans-serif;
+	color: black;}
 
 /****TABLE 1****/
 .table1 th {
@@ -245,6 +264,7 @@ img[tabindex="0"]:focus ~ * {
 	margin: 1.5%;
 }
 
+
 .block p{
 	text-align: left;
 	font:  1vw/1vw 'Russo One', sans-serif;
@@ -262,6 +282,22 @@ img[tabindex="0"]:focus ~ * {
 }
 
 .block1 p{
+	text-align: center;
+	font:  1vw/1vw 'Russo One', sans-serif;
+}
+
+.block2{
+	background: #E6E6FA; 
+	border-radius: 7px;
+	border: outset;
+	border-color: black;
+	display: table;
+	padding: 10px;
+	float: left;
+	margin: 1.5%;
+}
+.block2:hover{background: rgba(179, 179, 193, 0.6); transition: 1s;}
+.block2 p{
 	text-align: center;
 	font:  1vw/1vw 'Russo One', sans-serif;
 }
@@ -586,6 +622,10 @@ label:hover{
 	font:  4vw/4vw 'Russo One', sans-serif;
 	color: black;
 }
+.content h4{
+	font:  4vw/7vw 'Russo One', sans-serif;
+	color: black;
+}
 .table1{
 	display: none;
 }
@@ -641,6 +681,10 @@ background: #FF7F50;
 	font:  4vw/4vw 'Russo One', sans-serif;
 }
 .block1 p{
+	text-align: center;
+	font:  4vw/4vw 'Russo One', sans-serif;
+}
+.block2 p{
 	text-align: center;
 	font:  4vw/4vw 'Russo One', sans-serif;
 }

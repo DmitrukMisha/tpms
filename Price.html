@@ -15,7 +15,7 @@
   <meta name="Description" content="Мы занимаемся: Розничная и оптовая продажа датчиков давления в шинах (TPMS) и вентилей к ним. Программирование датчиков TPMS. Клонирование датчиков давления в шинах. Диагностика датчиков давления в шинах.">
     <meta name="Keywords" content="датчикb, датчикb давления, датчики давления в шинах, TPMS, Минск, Беларусь, диски, диагностика, программирование датчика давления в шинах, клонирование датчика давления в шинах, Alligator, TPMS-MINSK, TECH, U-PRO, T-PRO, SENS.IT, ATEQ VT56, второй комплект дисков">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="//code.jivosite.com/widget.js" data-jv-id="J6Gz8QbKkh" async></script>
+  <script src="//code.jivosite.com/widget.js" data-jv-id="J6Gz8QbKkh" async></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -31,9 +31,10 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/61330222" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script src="sensors.js"></script>
 </head>
 
-<body>
+<body onload="showPrice(sensors);">
 <div>
 <div class="header" >
 <a href ="index.html"><img id="LOGO" alt="Логотип TPMS-MINSK" src="images/logo11.png" title="Главная страница"></a>
@@ -69,258 +70,12 @@
 <div class="Line"> <h2>Прайс</h2> </div>
 <div class="content">
 <p> <a href="price.pdf" target="_blank" style="color: black;"><u>Скачать прайс</u></a></p>
-<table style="float: left;" class="table1">
-<col width="45%" valign="top">
-<col width="45%" valign="top">
-<tr>
-<th>Артикул</th>
-<th>Товар</th>
-<th>Цена за датчик</th>
-<th>Цена за датчик + вентиль</th>
-<th>Цена за датчик + вентиль + активация</th>
-<th>Цена за комплект (4 шт.)</th>
-</tr>
-<tr>
-<td>590914</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для металлического вентиля)</td>
-<td>90 руб.</td>
-<td>100 руб.</td>
-<td>110 руб.</td>
-<td>400 руб.</td>
-</tr>
-<tr>
-<td>590918</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для резинового вентиля TR-413)</td>
-<td>90 руб.</td>
-<td>100 руб.</td>
-<td>110 руб.</td>
-<td>400 руб.</td>
-</tr>
-<tr>
-<td>591112</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Серебряный вентиль)</td>
-<td>-</td>
-<td>130 руб.</td>
-<td>140 руб.</td>
-<td>520 руб.</td>
-</tr>
-<tr>
-<td>591113</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Черный вентиль)</td>
-<td>-</td>
-<td>130 руб.</td>
-<td>140 руб.</td>
-<td>520 руб.</td>
-</tr>
-<tr>
-<td>591114</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Резиновый вентиль)</td>
-<td>-</td>
-<td>130 руб.</td>
-<td>140 руб.</td>
-<td>520 руб.</td>
-</tr>
-<tr>
-<td>T-72-21-945</td>
-<td>Датчик TPMS T-PRO Hybrid 3.5 433 MHz (Серебряный вентиль)</td>
-<td>-</td>
-<td>90 руб.</td>
-<td>100 руб.</td>
-<td>360 руб.</td>
-</tr>
-<tr>
-<td>T-72-21-916</td>
-<td>Датчик TPMS U-PRO Hybrid 315 MHz (Серебряный вентиль)</td>
-<td>-</td>
-<td>90 руб.</td>
-<td>100 руб.</td>
-<td>360 руб.</td>
-</tr>
-<tr>
-    <th colspan="2">Наименование услуги</th>
-    <th colspan="2">ЦЕНА за 1 шт.</th>
-    <th colspan="2">ЦЕНА за комплект (4 шт.)</th>
- </tr>
- <tr>
-<td colspan="2">Диагностика  датчика</td>
-<td colspan="2">5 руб.</td>
-<td colspan="2">18 руб.</td>
-</tr>
- <tr>
-<td colspan="2">Диагностика и программирование  датчика</td>
-<td colspan="2">10 руб.</td>
-<td colspan="2">35 руб.</td>
-</tr>
- <tr>
-<td colspan="2">Диагностика и программирование  датчика с выездом к клиенту в пределах МКАД</td>
-<td colspan="2">20 руб.</td>
-<td colspan="2">45 руб.</td>
-</tr>
-</table>
+
+<div id="cont">
+
+</div>
 
 
-<table style="float: left;" class="table2">
-<col width="45%" valign="top">
-<col width="45%" valign="top">
-<tr>
-    <th>Наименование услуги</th>
-    <th>ЦЕНА за 1 шт.</th>
-    <th>ЦЕНА за комплект (4 шт.)</th>
- </tr>
- <tr>
-<td >Диагностика  датчика</td>
-<td >5 руб.</td>
-<td >18 руб.</td>
-</tr>
- <tr>
-<td >Диагностика и программирование  датчика</td>
-<td >10 руб.</td>
-<td >35 руб.</td>
-</tr>
- <tr>
-<td >Диагностика и программирование  датчика с выездом к клиенту в пределах МКАД</td>
-<td >20 руб.</td>
-<td >45 руб.</td>
-</tr>
-
-<tr>
-<th>Артикул</th>
-<th>Товар</th>
-<th>Цена за датчик</th>
-</tr>
-<tr>
-<td>590914</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для металлического вентиля)</td>
-<td>90 руб.</td>
-</tr>
-<tr>
-<td>590918</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для резинового вентиля TR-413)</td>
-<td>90 руб.</td>
-</tr>
-
-
-<th>Артикул</th>
-<th>Товар</th>
-<th>Цена за датчик + вентиль</th>
-</tr>
-<tr>
-<td>590914</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для металлического вентиля)</td>
-<td>100 руб.</td>
-</tr>
-<tr>
-<td>590918</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для резинового вентиля TR-413)</td>
-<td>100 руб.</td>
-</tr>
-<tr>
-<td>591112</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Серебряный вентиль)</td>
-<td>130 руб.</td>
-</tr>
-<tr>
-<td>591113</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Черный вентиль)</td>
-<td>130 руб.</td>
-</tr>
-<tr>
-<td>591114</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Резиновый вентиль)</td>
-<td>130 руб.</td>
-</tr>
-<tr>
-<td>T-72-21-945</td>
-<td>Датчик TPMS T-PRO Hybrid 3.5 433 MHz (Серебряный вентиль)</td>
-<td>90 руб.</td>
-</tr>
-<tr>
-<td>T-72-21-916</td>
-<td>Датчик TPMS U-PRO Hybrid 315 MHz (Серебряный вентиль)</td>
-<td>90 руб.</td>
-</tr>
-
-
-<th>Артикул</th>
-<th>Товар</th>
-<th>Цена за датчик + вентиль + активация</th>
-</tr>
-<tr>
-<td>590914</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для металлического вентиля)</td>
-<td>110 руб.</td>
-</tr>
-<tr>
-<td>590918</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для резинового вентиля TR-413)</td>
-<td>110 руб.</td>
-</tr>
-<tr>
-<td>591112</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Серебряный вентиль)</td>
-<td>140 руб.</td>
-</tr>
-<tr>
-<td>591113</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Черный вентиль)</td>
-<td>140 руб.</td>
-</tr>
-<tr>
-<td>591114</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Резиновый вентиль)</td>
-<td>140 руб.</td>
-</tr>
-<tr>
-<td>T-72-21-945</td>
-<td>Датчик TPMS T-PRO Hybrid 3.5 433 MHz (Серебряный вентиль)</td>
-<td>100 руб.</td>
-</tr>
-<tr>
-<td>T-72-21-916</td>
-<td>Датчик TPMS U-PRO Hybrid 315 MHz (Серебряный вентиль)</td>
-<td>100 руб.</td>
-</tr>
-
-<th>Артикул</th>
-<th>Товар</th>
-<th>Цена за комплект (4 шт.)</th>
-</tr>
-<tr>
-<td>590914</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для металлического вентиля)</td>
-<td>400 руб.</td>
-</tr>
-<tr>
-<td>590918</td>
-<td>Датчик TPMS Alligator SENS.IT RS3 433 MHz  (для резинового вентиля TR-413)</td>
-<td>400 руб.</td>
-</tr>
-<tr>
-<td>591112</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Серебряный вентиль)</td>
-<td>520 руб.</td>
-</tr>
-<tr>
-<td>591113</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Черный вентиль)</td>
-<td>520 руб.</td>
-</tr>
-<tr>
-<td>591114</td>
-<td>Датчик TPMS Alligator SENS.IT ONE (Универсальная частота MHz) (Резиновый вентиль)</td>
-<td>520 руб.</td>
-</tr>
-<tr>
-<td>T-72-21-945</td>
-<td>Датчик TPMS T-PRO Hybrid 3.5 433 MHz (Серебряный вентиль)</td>
-<td>360 руб.</td>
-</tr>
-<tr>
-<td>T-72-21-916</td>
-<td>Датчик TPMS U-PRO Hybrid 315 MHz (Серебряный вентиль)</td>
-<td>360 руб.</td>
-</tr>
-</table>
 
 </div>
 
