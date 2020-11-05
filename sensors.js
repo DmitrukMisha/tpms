@@ -59,7 +59,7 @@ function show(item){
 	let text='';
 	for (var i = 0; i < item.length; i++){
     	
-text+='<div class="block"><img id="pictureInBlock" alt="'+item[i].name+'" src="'+item[i].pic+'"><p>Артикул: '+item[i].article+'</p><p>'+item[i].name+'</p><p>Цена:'+item[i].price+' руб.</p></div>'
+text+='<div class="block"><img id="pictureInBlock" alt="'+item[i].name+'" src="'+item[i].pic+'"><p>Артикул: '+item[i].article+'</p><p>'+item[i].name+'</p><p>Цена: '+item[i].price+' руб.</p></div>'
 
 	}
 
