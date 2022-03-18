@@ -1,8 +1,8 @@
  var sensors = [
  //Датчик TPMS Autel MX Sensor (Универсальная частота MHz)(Серебряный вентиль)
-    {price:'90', article:'1-SENSOR M', activation:'false', counts:'1', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/1-SENSOR-M.jpg', brand:"autel"},
-    {price:'95', article:'1-SENSOR M', activation:'true', counts:'1', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/1-SENSOR-Mп.jpg', brand:"autel"},
-    {price:'360', article:'1-SENSOR M', activation:'true', counts:'4', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/1-SENSOR-Mп4.jpg', brand:"autel"},
+    {price:'110', article:'1-SENSOR M', activation:'false', counts:'1', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/1-SENSOR-M.jpg', brand:"autel"},
+    {price:'115', article:'1-SENSOR M', activation:'true', counts:'1', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/1-SENSOR-Mп.jpg', brand:"autel"},
+    {price:'440', article:'1-SENSOR M', activation:'true', counts:'4', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/1-SENSOR-Mп4.jpg', brand:"autel"},
 //Датчик TPMS Huf (BH Sens)(Универсальная частота MHz)(Серебряный вентиль)
     {price:'100', article:'73.907.410', activation:'false', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/73.907.410-1.jpg', brand:"huf"},
     {price:'110', article:'73.907.410', activation:'true', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/73.907.410-1п.jpg', brand:"huf"},
