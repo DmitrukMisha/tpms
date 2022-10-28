@@ -1,58 +1,58 @@
  var sensors = [
  //Датчик TPMS Autel MX Sensor (Универсальная частота MHz)(Серебряный вентиль)
-    {price:'0', article:'1-SENSOR M', activation:'false', counts:'1', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/1-SENSOR-M.jpg', brand:"autel"},
-    {price:'0', article:'1-SENSOR M', activation:'true', counts:'1', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/1-SENSOR-Mп.jpg', brand:"autel"},
-    {price:'0', article:'1-SENSOR M', activation:'true', counts:'4', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/1-SENSOR-Mп4.jpg', brand:"autel"},
+    //{price:'', article:'1-SENSOR M', activation:'false', counts:'1', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/1-SENSOR-M.jpg', brand:"autel"},
+    {price:'115', article:'1-SENSOR M', activation:'true', counts:'1', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/1-SENSOR-Mп.jpg', brand:"autel"},
+    {price:'440', article:'1-SENSOR M', activation:'true', counts:'4', name:'Датчик TPMS Autel MX Sensor<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/1-SENSOR-Mп4.jpg', brand:"autel"},
 //Датчик TPMS Huf (BH Sens)(Универсальная частота MHz)(Серебряный вентиль)
-    {price:'0', article:'73.907.410', activation:'false', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/73.907.410-1.jpg', brand:"huf"},
+   // {price:'0', article:'73.907.410', activation:'false', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/73.907.410-1.jpg', brand:"huf"},
     {price:'0', article:'73.907.410', activation:'true', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/73.907.410-1п.jpg', brand:"huf"},
     {price:'0', article:'73.907.410', activation:'true', counts:'4', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/73.907.410-1п4.jpg', brand:"huf"},
 //Датчик TPMS Huf (BH Sens)(Универсальная частота MHz)(Резиновый вентиль)
-    {price:'0', article:'73.907.410', activation:'false', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Резиновый вентиль)', pic:'images/products/73.907.410-2.jpg', brand:"huf"},
+   // {price:'0', article:'73.907.410', activation:'false', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Резиновый вентиль)', pic:'images/products/73.907.410-2.jpg', brand:"huf"},
     {price:'0', article:'73.907.410', activation:'true', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Резиновый вентиль) + активация', pic:'images/products/73.907.410-2п.jpg', brand:"huf"},
     {price:'0', article:'73.907.410', activation:'true', counts:'4', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Резиновый вентиль) + активация(4 шт.)', pic:'images/products/73.907.410-2п4.jpg', brand:"huf"},
 //Датчик TPMS Huf (BH Sens)(Универсальная частота MHz)(Серебряный вентиль)
-    {price:'0', article:'73.903.440', activation:'false', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/73.903.440.jpg', brand:"huf"},
-    {price:'0', article:'73.903.440', activation:'true', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/73.903.440п.jpg', brand:"huf"},
-    {price:'0', article:'73.903.440', activation:'true', counts:'4', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/73.903.440п4.jpg', brand:"huf"},
+   // {price:'0', article:'73.903.440', activation:'false', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/73.903.440.jpg', brand:"huf"},
+    {price:'130', article:'73.903.440', activation:'true', counts:'1', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/73.903.440п.jpg', brand:"huf"},
+    {price:'500', article:'73.903.440', activation:'true', counts:'4', name:'Датчик TPMS Huf (BH Sens)<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/73.903.440п4.jpg', brand:"huf"},
 //Датчик TPMS Italsensor 433 MHz Europe (Черный вентиль)
-    {price:'0', article:'IT-230B', activation:'false', counts:'1', name:'Датчик TPMS Italsensor<br>433 MHz Europe<br>(Черный вентиль)', pic:'images/products/IT-230B.jpg', brand:"italsensor"},
+   // {price:'0', article:'IT-230B', activation:'false', counts:'1', name:'Датчик TPMS Italsensor<br>433 MHz Europe<br>(Черный вентиль)', pic:'images/products/IT-230B.jpg', brand:"italsensor"},
     {price:'0', article:'IT-230B', activation:'true', counts:'1', name:'Датчик TPMS Italsensor<br>433 MHz Europe<br>(Черный вентиль) + активация', pic:'images/products/IT-230Bп.jpg', brand:"italsensor"},
     {price:'0', article:'IT-230B', activation:'true', counts:'4', name:'Датчик TPMS Italsensor<br>433 MHz Europe<br>(Черный вентиль) + активация(4 шт.)', pic:'images/products/IT-230Bп4.jpg', brand:"italsensor"},
  //Датчик TPMS Alligator SENS.IT RS3 433 MHz черный
   //	{price:'0', article:'590914', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>(для металлического вентиля)', pic:'images/products/590914.jpg', brand:"alligator"},
-    {price:'0', article:'590914', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль', pic:'images/products/590914в.jpg', brand:"alligator"},
-    {price:'0', article:'590914', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль + активация', pic:'images/products/590914п.jpg', brand:"alligator"},
-    {price:'0', article:'590914', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль + активация(4 шт.)', pic:'images/products/590914п4.jpg', brand:"alligator"},
+  //  {price:'0', article:'590914', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль', pic:'images/products/590914в.jpg', brand:"alligator"},
+    {price:'120', article:'590914', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль + активация', pic:'images/products/590914п.jpg', brand:"alligator"},
+    {price:'460', article:'590914', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль + активация(4 шт.)', pic:'images/products/590914п4.jpg', brand:"alligator"},
  //Датчик TPMS Alligator SENS.IT RS3 433 MHz   серебро 
-    {price:'0', article:'590914', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль', pic:'images/products/s590914в.jpg', brand:"alligator"},
-    {price:'0', article:'590914', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль + активация', pic:'images/products/s590914п.jpg', brand:"alligator"},
-    {price:'0', article:'590914', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль + активация(4 шт.)', pic:'images/products/s590914п4.jpg', brand:"alligator"},
+  //  {price:'0', article:'590914', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль', pic:'images/products/s590914в.jpg', brand:"alligator"},
+    {price:'120', article:'590914', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль + активация', pic:'images/products/s590914п.jpg', brand:"alligator"},
+    {price:'460', article:'590914', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и металлический вентиль + активация(4 шт.)', pic:'images/products/s590914п4.jpg', brand:"alligator"},
 //Датчик TPMS Alligator SENS.IT RS3 433 MHz  резина
    // {price:'0', article:'590918', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>(для резинового вентиля TR-413)', pic:'images/products/590918.jpg', brand:"alligator"},
-    {price:'0', article:'590918', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и резиновый вентиль TR-413', pic:'images/products/590918в.jpg', brand:"alligator"},
-    {price:'0', article:'590918', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и резиновый вентиль TR-413 + активация', pic:'images/products/590918п.jpg', brand:"alligator"},
-    {price:'0', article:'590918', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и резиновый вентиль TR-413 + активация(4 шт.)', pic:'images/products/590918п4.jpg', brand:"alligator"},
+   // {price:'0', article:'590918', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и резиновый вентиль TR-413', pic:'images/products/590918в.jpg', brand:"alligator"},
+    {price:'120', article:'590918', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и резиновый вентиль TR-413 + активация', pic:'images/products/590918п.jpg', brand:"alligator"},
+    {price:'460', article:'590918', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT RS3<br>433 MHz Europe<br>и резиновый вентиль TR-413 + активация(4 шт.)', pic:'images/products/590918п4.jpg', brand:"alligator"},
 // Датчик TPMS Alligator SENS.IT ONE(Универсальная частота MHz)(Серебряный вентиль)   
-    {price:'0', article:'591112', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/591112-1.jpg', brand:"alligator"},
+  //  {price:'0', article:'591112', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Серебряный вентиль)', pic:'images/products/591112-1.jpg', brand:"alligator"},
     {price:'0', article:'591112', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация', pic:'images/products/591112-1п.jpg', brand:"alligator"},
     {price:'0', article:'591112', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/591112-1п4.jpg', brand:"alligator"},
 // Датчик TPMS Alligator SENS.IT ONE(Универсальная частота MHz)(Черный вентиль)    
-    {price:'0', article:'591113', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Черный вентиль)', pic:'images/products/591113-1.jpg', brand:"alligator"},
+   // {price:'0', article:'591113', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Черный вентиль)', pic:'images/products/591113-1.jpg', brand:"alligator"},
     {price:'0', article:'591113', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Черный вентиль) + активация', pic:'images/products/591113-1п.jpg', brand:"alligator"},
     {price:'0', article:'591113', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Черный вентиль) + активация(4 шт.)', pic:'images/products/591113-1п4.jpg', brand:"alligator"},
 // Датчик TPMS Alligator SENS.IT ONE(Универсальная частота MHz)(Резиновый вентиль)    
-    {price:'0', article:'591114', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Резиновый вентиль)', pic:'images/products/591114-1.jpg', brand:"alligator"},
-    {price:'0', article:'591114', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Резиновый вентиль) + активация', pic:'images/products/591114-1п.jpg', brand:"alligator"},
-    {price:'0', article:'591114', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Резиновый вентиль) + активация(4 шт.)', pic:'images/products/591114-1п4.jpg', brand:"alligator"},
+  //  {price:'0', article:'591114', activation:'false', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Резиновый вентиль)', pic:'images/products/591114-1.jpg', brand:"alligator"},
+    {price:'130', article:'591114', activation:'true', counts:'1', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Резиновый вентиль) + активация', pic:'images/products/591114-1п.jpg', brand:"alligator"},
+    {price:'500', article:'591114', activation:'true', counts:'4', name:'Датчик TPMS Alligator SENS.IT ONE<br>(Универсальная частота MHz)<br>(Резиновый вентиль) + активация(4 шт.)', pic:'images/products/591114-1п4.jpg', brand:"alligator"},
 //Датчик TPMS T-PRO Hybrid 3.5 433 MHz Europe (Серебряный вентиль)    
-    {price:'0', article:'T-72-21-945', activation:'false', counts:'1', name:'Датчик TPMS T-PRO Hybrid 3.5<br>433 MHz Europe<br>(Серебряный вентиль)', pic:'images/products/72-21-945.jpg', brand:"tech"},
-    {price:'0', article:'T-72-21-945', activation:'true', counts:'1', name:'Датчик TPMS T-PRO Hybrid 3.5<br>433 MHz Europe<br>(Серебряный вентиль) + активация', pic:'images/products/72-21-945п.jpg', brand:"tech"},
-    {price:'0', article:'T-72-21-945', activation:'true', counts:'4', name:'Датчик TPMS T-PRO Hybrid 3.5<br>433 MHz Europe<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/72-21-945п4.jpg', brand:"tech"},
+ //   {price:'0', article:'T-72-21-945', activation:'false', counts:'1', name:'Датчик TPMS T-PRO Hybrid 3.5<br>433 MHz Europe<br>(Серебряный вентиль)', pic:'images/products/72-21-945.jpg', brand:"tech"},
+    {price:'120', article:'T-72-21-945', activation:'true', counts:'1', name:'Датчик TPMS T-PRO Hybrid 3.5<br>433 MHz Europe<br>(Серебряный вентиль) + активация', pic:'images/products/72-21-945п.jpg', brand:"tech"},
+    {price:'460', article:'T-72-21-945', activation:'true', counts:'4', name:'Датчик TPMS T-PRO Hybrid 3.5<br>433 MHz Europe<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/72-21-945п4.jpg', brand:"tech"},
 //Датчик TPMS U-PRO Hybrid 315 MHz USA (Серебряный вентиль) 
-    {price:'0', article:'T-72-21-916', activation:'false', counts:'1', name:'Датчик TPMS U-PRO Hybrid<br>315 MHz USA<br>(Серебряный вентиль)', pic:'images/products/72-21-916.jpg', brand:"tech"},
-    {price:'0', article:'T-72-21-916', activation:'true', counts:'1', name:'Датчик TPMS U-PRO Hybrid<br>315 MHz USA<br>(Серебряный вентиль) + активация', pic:'images/products/72-21-916п.jpg', brand:"tech"},
-    {price:'0', article:'T-72-21-916', activation:'true', counts:'4', name:'Датчик TPMS U-PRO Hybrid<br>315 MHz USA<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/72-21-916п4.jpg', brand:"tech"}
+  //  {price:'0', article:'T-72-21-916', activation:'false', counts:'1', name:'Датчик TPMS U-PRO Hybrid<br>315 MHz USA<br>(Серебряный вентиль)', pic:'images/products/72-21-916.jpg', brand:"tech"},
+    {price:'120', article:'T-72-21-916', activation:'true', counts:'1', name:'Датчик TPMS U-PRO Hybrid<br>315 MHz USA<br>(Серебряный вентиль) + активация', pic:'images/products/72-21-916п.jpg', brand:"tech"},
+    {price:'460', article:'T-72-21-916', activation:'true', counts:'4', name:'Датчик TPMS U-PRO Hybrid<br>315 MHz USA<br>(Серебряный вентиль) + активация(4 шт.)', pic:'images/products/72-21-916п4.jpg', brand:"tech"}
   ] 
   	
 function show(item){
